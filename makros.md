@@ -7,7 +7,7 @@ edit: true
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
-@diagnostik_image: <div class="image-container"><img src="@0/@1" alt="@1" style="height: @2rem"></div>
+@diagnostik_image: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1" style="width:100%; height: 100%;"></div>
 
 @style
 .image-container {
@@ -182,45 +182,45 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Hoelzer1.Pappel(10)|`Pappel.jpg`|`@Hoelzer1.Pappel(10)`|
-|@Hoelzer1.Balsa(10)|`Balsa.jpg`|`@Hoelzer1.Balsa(10)`|
-|@Hoelzer1.Birke(10)|`Birke.jpg`|`@Hoelzer1.Birke(10)`|
-|@Hoelzer1.Laerche(10)|`Laerche.jpg`|`@Hoelzer1.Laerche(10)`|
-|@Hoelzer1.Schwarzerle(10)|`Schwarzerle.jpg`|`@Hoelzer1.Schwarzerle(10)`|
-|@Hoelzer1.Weisstanne(10)|`Weisstanne.jpg`|`@Hoelzer1.Weisstanne(10)`|
-|@Hoelzer1.Kiefer(10)|`Kiefer.jpg`|`@Hoelzer1.Kiefer(10)`|
-|@Hoelzer1.Ahorn(10)|`Ahorn.jpg`|`@Hoelzer1.Ahorn(10)`|
-|@Hoelzer1.Roteiche(10)|`Roteiche.jpg`|`@Hoelzer1.Roteiche(10)`|
-|@Hoelzer1.Pockholz(10)|`Pockholz.jpg`|`@Hoelzer1.Pockholz(10)`|
-|@Hoelzer1.Kirschbaum(10)|`Kirschbaum.jpg`|`@Hoelzer1.Kirschbaum(10)`|
-|@Hoelzer1.Buche(10)|`Buche.jpg`|`@Hoelzer1.Buche(10)`|
-|@Hoelzer1.Ulme_Ruester(10)|`Ulme_Ruester.jpg`|`@Hoelzer1.Ulme_Ruester(10)`|
-|@Hoelzer1.Douglasie(10)|`Douglasie.jpg`|`@Hoelzer1.Douglasie(10)`|
-|@Hoelzer1.Nussbaum(10)|`Nussbaum.jpg`|`@Hoelzer1.Nussbaum(10)`|
-|@Hoelzer1.Linde(10)|`Linde.jpg`|`@Hoelzer1.Linde(10)`|
-|@Hoelzer1.Edelkastanie(10)|`Edelkastanie.jpg`|`@Hoelzer1.Edelkastanie(10)`|
-|@Hoelzer1.Elsbeere(10)|`Elsbeere.jpg`|`@Hoelzer1.Elsbeere(10)`|
-|@Hoelzer1.Robinie(10)|`Robinie.jpg`|`@Hoelzer1.Robinie(10)`|
-|@Hoelzer1.Esche(10)|`Esche.jpg`|`@Hoelzer1.Esche(10)`|
-|@Hoelzer1.Fichte(10)|`Fichte.jpg`|`@Hoelzer1.Fichte(10)`|
-|@Hoelzer1.Birnbaum(10)|`Birnbaum.jpg`|`@Hoelzer1.Birnbaum(10)`|
-|@Hoelzer1.Weisseiche(10)|`Weisseiche.jpg`|`@Hoelzer1.Weisseiche(10)`|
+|@Hoelzer1.Pappel(20)|`Pappel.jpg`|`@Hoelzer1.Pappel(20)`|
+|@Hoelzer1.Balsa(20)|`Balsa.jpg`|`@Hoelzer1.Balsa(20)`|
+|@Hoelzer1.Birke(20)|`Birke.jpg`|`@Hoelzer1.Birke(20)`|
+|@Hoelzer1.Laerche(20)|`Laerche.jpg`|`@Hoelzer1.Laerche(20)`|
+|@Hoelzer1.Schwarzerle(20)|`Schwarzerle.jpg`|`@Hoelzer1.Schwarzerle(20)`|
+|@Hoelzer1.Weisstanne(20)|`Weisstanne.jpg`|`@Hoelzer1.Weisstanne(20)`|
+|@Hoelzer1.Kiefer(20)|`Kiefer.jpg`|`@Hoelzer1.Kiefer(20)`|
+|@Hoelzer1.Ahorn(20)|`Ahorn.jpg`|`@Hoelzer1.Ahorn(20)`|
+|@Hoelzer1.Roteiche(20)|`Roteiche.jpg`|`@Hoelzer1.Roteiche(20)`|
+|@Hoelzer1.Pockholz(20)|`Pockholz.jpg`|`@Hoelzer1.Pockholz(20)`|
+|@Hoelzer1.Kirschbaum(20)|`Kirschbaum.jpg`|`@Hoelzer1.Kirschbaum(20)`|
+|@Hoelzer1.Buche(20)|`Buche.jpg`|`@Hoelzer1.Buche(20)`|
+|@Hoelzer1.Ulme_Ruester(20)|`Ulme_Ruester.jpg`|`@Hoelzer1.Ulme_Ruester(20)`|
+|@Hoelzer1.Douglasie(20)|`Douglasie.jpg`|`@Hoelzer1.Douglasie(20)`|
+|@Hoelzer1.Nussbaum(20)|`Nussbaum.jpg`|`@Hoelzer1.Nussbaum(20)`|
+|@Hoelzer1.Linde(20)|`Linde.jpg`|`@Hoelzer1.Linde(20)`|
+|@Hoelzer1.Edelkastanie(20)|`Edelkastanie.jpg`|`@Hoelzer1.Edelkastanie(20)`|
+|@Hoelzer1.Elsbeere(20)|`Elsbeere.jpg`|`@Hoelzer1.Elsbeere(20)`|
+|@Hoelzer1.Robinie(20)|`Robinie.jpg`|`@Hoelzer1.Robinie(20)`|
+|@Hoelzer1.Esche(20)|`Esche.jpg`|`@Hoelzer1.Esche(20)`|
+|@Hoelzer1.Fichte(20)|`Fichte.jpg`|`@Hoelzer1.Fichte(20)`|
+|@Hoelzer1.Birnbaum(20)|`Birnbaum.jpg`|`@Hoelzer1.Birnbaum(20)`|
+|@Hoelzer1.Weisseiche(20)|`Weisseiche.jpg`|`@Hoelzer1.Weisseiche(20)`|
 
 ### Hoelzer2
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Hoelzer2.Laerche(10)|`Laerche.jpg`|`@Hoelzer2.Laerche(10)`|
-|@Hoelzer2.Kiefer(10)|`Kiefer.jpg`|`@Hoelzer2.Kiefer(10)`|
-|@Hoelzer2.Ahorn(10)|`Ahorn.jpg`|`@Hoelzer2.Ahorn(10)`|
-|@Hoelzer2.Eiche2(10)|`Eiche2.jpg`|`@Hoelzer2.Eiche2(10)`|
-|@Hoelzer2.Mooreiche(10)|`Mooreiche.jpg`|`@Hoelzer2.Mooreiche(10)`|
-|@Hoelzer2.Nussbaum(10)|`Nussbaum.jpg`|`@Hoelzer2.Nussbaum(10)`|
-|@Hoelzer2.Buche2(10)|`Buche2.jpg`|`@Hoelzer2.Buche2(10)`|
-|@Hoelzer2.Esche(10)|`Esche.jpg`|`@Hoelzer2.Esche(10)`|
-|@Hoelzer2.Kirsche(10)|`Kirsche.jpg`|`@Hoelzer2.Kirsche(10)`|
-|@Hoelzer2.Ahorn2(10)|`Ahorn2.jpg`|`@Hoelzer2.Ahorn2(10)`|
-|@Hoelzer2.Zebrano(10)|`Zebrano.jpg`|`@Hoelzer2.Zebrano(10)`|
-|@Hoelzer2.Eiche(10)|`Eiche.jpg`|`@Hoelzer2.Eiche(10)`|
-|@Hoelzer2.Mahagonie(10)|`Mahagonie.jpg`|`@Hoelzer2.Mahagonie(10)`|
-|@Hoelzer2.Vogelaugenahorn(10)|`Vogelaugenahorn.jpg`|`@Hoelzer2.Vogelaugenahorn(10)`|
+|@Hoelzer2.Laerche(20)|`Laerche.jpg`|`@Hoelzer2.Laerche(20)`|
+|@Hoelzer2.Kiefer(20)|`Kiefer.jpg`|`@Hoelzer2.Kiefer(20)`|
+|@Hoelzer2.Ahorn(20)|`Ahorn.jpg`|`@Hoelzer2.Ahorn(20)`|
+|@Hoelzer2.Eiche2(20)|`Eiche2.jpg`|`@Hoelzer2.Eiche2(20)`|
+|@Hoelzer2.Mooreiche(20)|`Mooreiche.jpg`|`@Hoelzer2.Mooreiche(20)`|
+|@Hoelzer2.Nussbaum(20)|`Nussbaum.jpg`|`@Hoelzer2.Nussbaum(20)`|
+|@Hoelzer2.Buche2(20)|`Buche2.jpg`|`@Hoelzer2.Buche2(20)`|
+|@Hoelzer2.Esche(20)|`Esche.jpg`|`@Hoelzer2.Esche(20)`|
+|@Hoelzer2.Kirsche(20)|`Kirsche.jpg`|`@Hoelzer2.Kirsche(20)`|
+|@Hoelzer2.Ahorn2(20)|`Ahorn2.jpg`|`@Hoelzer2.Ahorn2(20)`|
+|@Hoelzer2.Zebrano(20)|`Zebrano.jpg`|`@Hoelzer2.Zebrano(20)`|
+|@Hoelzer2.Eiche(20)|`Eiche.jpg`|`@Hoelzer2.Eiche(20)`|
+|@Hoelzer2.Mahagonie(20)|`Mahagonie.jpg`|`@Hoelzer2.Mahagonie(20)`|
+|@Hoelzer2.Vogelaugenahorn(20)|`Vogelaugenahorn.jpg`|`@Hoelzer2.Vogelaugenahorn(20)`|
