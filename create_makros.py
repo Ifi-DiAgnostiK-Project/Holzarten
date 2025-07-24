@@ -27,8 +27,8 @@ edit: true
 }
 
 .image-container img {
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   object-fit: contain;
 }
 @end
