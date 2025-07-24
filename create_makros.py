@@ -6,15 +6,15 @@ ignore_dirs = ['Collections']
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.1
-repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
+version: 0.2.2
+repository: https://github.com/Ifi-DiAgnostiK-Project/Holzarten
 
-@diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/img
+@diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
 @diagnostik_image: <img src="@0/@1" alt="@1" style="height: @2rem">
 '''
 
-location = 'https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md'
+location = 'https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md'
 
 how_to_use = f'''
 # Link zu LiaScript
@@ -25,7 +25,7 @@ how_to_use = f'''
 
 
 
-> Diese Datei ist automatisch generiert und enthält Makros für die DiAgnostiK-Bilder.
+> Diese Datei ist automatisch generiert und enthält Makros für die DiAgnostiK-Holzartenbilder.
 
 # Anleitung
 
@@ -46,14 +46,6 @@ Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabe
 `@Brandschutzzeichen.Brandbekaempfung.src`
 
 @Brandschutzzeichen.Brandbekaempfung.src
-
-`@Gefahrstoffe.Explosiv(10)`
-
-@Gefahrstoffe.Explosiv(10)
-
-`@Gefahrstoffe.Explosiv.src`
-
-@Gefahrstoffe.Explosiv.src
 
 ## Bereiche und Befehle
 
