@@ -12,7 +12,7 @@ edit: true
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
-@diagnostik_image: <div class="image-container"><img src="@0/@1" alt="@1" style="height: @2rem"></div>
+@diagnostik_image: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1" style="width:100%; height: 100%;"></div>
 
 @style
 .image-container {
@@ -110,7 +110,7 @@ def process_file(parent_folder, makros, showcase):
             makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
             makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
 
-            showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
+            showcase.append(f"|@{entry}.{filename}(20)|`{item}`|`@{entry}.{filename}(20)`|")
 
 def get_name(filepath):
     """this returns the name of the image file without the extension."""
