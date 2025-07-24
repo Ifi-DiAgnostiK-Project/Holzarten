@@ -3,6 +3,7 @@ author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
 version: 0.2.2
 repository: https://github.com/Ifi-DiAgnostiK-Project/Holzarten
+edit: true
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
