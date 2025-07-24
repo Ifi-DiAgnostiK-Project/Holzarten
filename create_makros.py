@@ -12,7 +12,7 @@ edit: true
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
-@diagnostik_image: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1" style="width:100%; height: 100%;"></div>
+@diagnostik_image: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1"></div>
 
 @style
 .image-container {
