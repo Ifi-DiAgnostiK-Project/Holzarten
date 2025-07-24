@@ -11,7 +11,24 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Holzarten
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
-@diagnostik_image: <img src="@0/@1" alt="@1" style="height: @2rem">
+@diagnostik_image: <div class="image-container"><img src="@0/@1" alt="@1" style="height: @2rem"></div>
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 '''
 
 location = 'https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md'
@@ -39,13 +56,13 @@ Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabe
 
 ## Beispiel
 
-`@Brandschutzzeichen.Brandbekaempfung(10)`
+`@Hoelzer2.Laerche(10)`
 
-@Brandschutzzeichen.Brandbekaempfung(10)
+@Hoelzer2.Laerche(10)
 
-`@Brandschutzzeichen.Brandbekaempfung.src`
+`@Hoelzer2.Laerche.src`
 
-@Brandschutzzeichen.Brandbekaempfung.src
+@Hoelzer2.Laerche.src
 
 ## Bereiche und Befehle
 
