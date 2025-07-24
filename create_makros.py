@@ -14,6 +14,7 @@ edit: true
 
 @diagnostik_image: <div class="image-container"><img src="@0/@1" alt="@1" style="height: @2rem"></div>
 
+@style
 .image-container {
   width: 200px;
   height: 200px;
@@ -30,6 +31,8 @@ edit: true
   height: 100%;
   object-fit: contain;
 }
+@end
+
 '''
 
 location = 'https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md'
