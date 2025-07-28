@@ -96,6 +96,9 @@ tags: Wissensspeicher
 @Hoelzer1.Fichte.src: @diagnostik_url/Hoelzer1/Fichte.jpg
 @Hoelzer1.Fichte: @diagnostik_image(@diagnostik_url,Hoelzer1/Fichte.jpg,@0)
 
+@Hoelzer1.Teak.src: @diagnostik_url/Hoelzer1/Teak.jpg
+@Hoelzer1.Teak: @diagnostik_image(@diagnostik_url,Hoelzer1/Teak.jpg,@0)
+
 @Hoelzer1.Birnbaum.src: @diagnostik_url/Hoelzer1/Birnbaum.jpg
 @Hoelzer1.Birnbaum: @diagnostik_image(@diagnostik_url,Hoelzer1/Birnbaum.jpg,@0)
 
@@ -131,9 +134,6 @@ tags: Wissensspeicher
 
 @Hoelzer2.Ahorn2.src: @diagnostik_url/Hoelzer2/Ahorn2.jpg
 @Hoelzer2.Ahorn2: @diagnostik_image(@diagnostik_url,Hoelzer2/Ahorn2.jpg,@0)
-
-@Hoelzer2.Teak.src: @diagnostik_url/Hoelzer2/Teak.jpg
-@Hoelzer2.Teak: @diagnostik_image(@diagnostik_url,Hoelzer2/Teak.jpg,@0)
 
 @Hoelzer2.Zebrano.src: @diagnostik_url/Hoelzer2/Zebrano.jpg
 @Hoelzer2.Zebrano: @diagnostik_image(@diagnostik_url,Hoelzer2/Zebrano.jpg,@0)
@@ -209,6 +209,7 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Hoelzer1.Robinie(20)|`Robinie.jpg`|`@Hoelzer1.Robinie(20)`|
 |@Hoelzer1.Esche(20)|`Esche.jpg`|`@Hoelzer1.Esche(20)`|
 |@Hoelzer1.Fichte(20)|`Fichte.jpg`|`@Hoelzer1.Fichte(20)`|
+|@Hoelzer1.Teak(20)|`Teak.jpg`|`@Hoelzer1.Teak(20)`|
 |@Hoelzer1.Birnbaum(20)|`Birnbaum.jpg`|`@Hoelzer1.Birnbaum(20)`|
 |@Hoelzer1.Weisseiche(20)|`Weisseiche.jpg`|`@Hoelzer1.Weisseiche(20)`|
 
@@ -226,7 +227,6 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Hoelzer2.Esche(20)|`Esche.jpg`|`@Hoelzer2.Esche(20)`|
 |@Hoelzer2.Kirsche(20)|`Kirsche.jpg`|`@Hoelzer2.Kirsche(20)`|
 |@Hoelzer2.Ahorn2(20)|`Ahorn2.jpg`|`@Hoelzer2.Ahorn2(20)`|
-|@Hoelzer2.Teak(20)|`Teak.jpg`|`@Hoelzer2.Teak(20)`|
 |@Hoelzer2.Zebrano(20)|`Zebrano.jpg`|`@Hoelzer2.Zebrano(20)`|
 |@Hoelzer2.Eiche(20)|`Eiche.jpg`|`@Hoelzer2.Eiche(20)`|
 |@Hoelzer2.Mahagonie(20)|`Mahagonie.jpg`|`@Hoelzer2.Mahagonie(20)`|
