@@ -6,16 +6,16 @@ ignore_dirs = ['Collections']
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.3
+version: 0.2.4
 repository: https://github.com/Ifi-DiAgnostiK-Project/Holzarten
 edit: true
 
 title: DiAgnostiK Holzarten Makros
 tags: Wissensspeicher
 
-@diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
+@diagnostik_url_holz: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
-@diagnostik_image: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1"></div>
+@diagnostik_image_holz: <div class="image-container" style="height: @2rem; width: @2rem;"><img src="@0/@1" alt="@1"></div>
 
 @style
 .image-container {
@@ -110,8 +110,8 @@ def process_file(parent_folder, makros, showcase):
             filename = get_name(item)
             entry = os.path.basename(parent_folder)
             makros.append("")
-            makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
-            makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
+            makros.append(f'@{entry}.{filename}.src: @diagnostik_url_holz/{entry}/{item}')
+            makros.append(f'@{entry}.{filename}: @diagnostik_image_holz(@diagnostik_url_holz,{entry}/{item},@0)')
 
             showcase.append(f"|@{entry}.{filename}(20)|`{item}`|`@{entry}.{filename}(20)`|")
 
