@@ -6,9 +6,12 @@ ignore_dirs = ['Collections']
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.2
+version: 0.2.3
 repository: https://github.com/Ifi-DiAgnostiK-Project/Holzarten
 edit: true
+
+title: DiAgnostiK Holzarten Makros
+tags: Wissensspeicher
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img
 
