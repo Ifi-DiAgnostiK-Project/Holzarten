@@ -75,6 +75,11 @@ Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabe
 ## Bereiche und Befehle
 
 Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgelistet, die in dieser Sammlung enthalten sind.
+
+Lizensen
+========
+- Hoelzer1: Bildmaterial: www.holz-werken.com, CC BY-NC-SA 4.0
+- Hoelzer2: Bildmaterial: (c) Florian Riefling HWK Dresden
 '''
 
 UMLAUT_MAP = {
