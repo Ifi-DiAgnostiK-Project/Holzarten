@@ -27,6 +27,8 @@ tags: "Wissensspeicher"
   object-fit: contain;
 }
 @end
+@Hoelzer1.licence: Bildquellen: www.holz-werken.com, CC BY-NC-SA 4.0
+
 
 @Hoelzer1.Ahorn.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer1/Ahorn.jpg
 @Hoelzer1.Ahorn: @diagnostik_image(https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img,Hoelzer1/Ahorn.jpg,@0)
@@ -102,6 +104,8 @@ tags: "Wissensspeicher"
 
 @Hoelzer1.Zirbel.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer1/Zirbel.jpg
 @Hoelzer1.Zirbel: @diagnostik_image(https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img,Hoelzer1/Zirbel.jpg,@0)
+@Hoelzer2.licence: Bildquellen: (c) Florian Riefling HWK Dresden
+
 
 @Hoelzer2.Ahorn.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer2/Ahorn.jpg
 @Hoelzer2.Ahorn: @diagnostik_image(https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img,Hoelzer2/Ahorn.jpg,@0)
@@ -181,6 +185,13 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 ### Hoelzer1
 
 
+www.holz-werken.com, CC BY-NC-SA 4.0
+
+
+mit `@Hoelzer1.licence` kann der Text ausgegeben werden.
+
+> @Hoelzer1.licence
+
 |Bild|Name|Befehl|
 |---|---|---|
 |@Hoelzer1.Ahorn(10)|_Ahorn_|`@Hoelzer1.Ahorn(10)`|
@@ -211,6 +222,13 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 
 ### Hoelzer2
 
+
+(c) Florian Riefling HWK Dresden
+
+
+mit `@Hoelzer2.licence` kann der Text ausgegeben werden.
+
+> @Hoelzer2.licence
 
 |Bild|Name|Befehl|
 |---|---|---|
