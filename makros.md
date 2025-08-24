@@ -27,7 +27,7 @@ tags: "Wissensspeicher"
   object-fit: contain;
 }
 @end
-@Hoelzer1.licence: Bildquellen: www.holz-werken.com, CC BY-NC-SA 4.0
+@Hoelzer1.license: Bildquellen: www.holz-werken.com, CC BY-NC-SA 4.0
 
 
 @Hoelzer1.Ahorn.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer1/Ahorn.jpg
@@ -104,7 +104,7 @@ tags: "Wissensspeicher"
 
 @Hoelzer1.Zirbel.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer1/Zirbel.jpg
 @Hoelzer1.Zirbel: @diagnostik_image(https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img,Hoelzer1/Zirbel.jpg,@0)
-@Hoelzer2.licence: Bildquellen: (c) Florian Riefling HWK Dresden
+@Hoelzer2.license: Bildquellen: (c) Florian Riefling HWK Dresden
 
 
 @Hoelzer2.Ahorn.src: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/img/Hoelzer2/Ahorn.jpg
@@ -188,9 +188,9 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 www.holz-werken.com, CC BY-NC-SA 4.0
 
 
-mit `@Hoelzer1.licence` kann der Text ausgegeben werden.
+mit `@Hoelzer1.license` kann der Text ausgegeben werden.
 
-> @Hoelzer1.licence
+> @Hoelzer1.license
 
 |Bild|Name|Befehl|
 |---|---|---|
@@ -226,9 +226,9 @@ mit `@Hoelzer1.licence` kann der Text ausgegeben werden.
 (c) Florian Riefling HWK Dresden
 
 
-mit `@Hoelzer2.licence` kann der Text ausgegeben werden.
+mit `@Hoelzer2.license` kann der Text ausgegeben werden.
 
-> @Hoelzer2.licence
+> @Hoelzer2.license
 
 |Bild|Name|Befehl|
 |---|---|---|
